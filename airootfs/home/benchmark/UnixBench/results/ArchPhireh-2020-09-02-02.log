@@ -1,0 +1,65 @@
+
+########################################################
+System Call Overhead -- 1 copy
+==> "/home/phireh/work/UnixBench/pgms/syscall" 10 2>&1 >> "/home/phireh/work/UnixBench/results/ArchPhireh-2020-09-02-02.log"
+
+#### Pass 1
+
+
+# COUNT0: 7492762
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004859
+# pid: 1184344
+# status: 0
+
+Count score:    7492762.0
+
+>>>> Results of 1 copy
+>>>> score: 748912.303511724
+>>>> time: 10.004859
+>>>> iterations: 1
+
+
+########################################################
+System Call Overhead -- 4 copies
+==> "/home/phireh/work/UnixBench/pgms/syscall" 10 2>&1 >> "/home/phireh/work/UnixBench/results/ArchPhireh-2020-09-02-02.log"
+
+#### Pass 1
+
+
+# COUNT0: 6372277
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006743
+# pid: 1184354
+# status: 0
+
+# COUNT0: 6427311
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.005849
+# pid: 1184356
+# status: 0
+
+# COUNT0: 6460810
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.005185
+# pid: 1184357
+# status: 0
+
+# COUNT0: 6440435
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.004324
+# pid: 1184360
+# status: 0
+
+Count score:   25700833.0
+
+>>>> Sum of 4 copies
+>>>> score: 2568664.04889638
+>>>> time: 10.00552525
+>>>> iterations: 1
+

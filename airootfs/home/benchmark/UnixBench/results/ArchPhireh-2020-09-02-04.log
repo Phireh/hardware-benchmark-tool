@@ -1,0 +1,194 @@
+
+########################################################
+System Call Overhead -- 1 copy
+==> "/home/phireh/work/UnixBench/pgms/syscall" 10 2>&1 >> "/home/phireh/work/UnixBench/results/ArchPhireh-2020-09-02-04.log"
+
+#### Pass 1
+
+
+# COUNT0: 7399799
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007923
+# pid: 1184624
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 7221108
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007852
+# pid: 1184637
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 7509076
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010531
+# pid: 1184647
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 7469933
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009491
+# pid: 1184657
+# status: 0
+
+*Dump score:    7221108.0
+Count score:    7399799.0
+Count score:    7469933.0
+Count score:    7509076.0
+
+>>>> Results of 1 copy
+>>>> score: 745252.352025865
+>>>> time: 10.009315
+>>>> iterations: 3
+
+
+########################################################
+System Call Overhead -- 4 copies
+==> "/home/phireh/work/UnixBench/pgms/syscall" 10 2>&1 >> "/home/phireh/work/UnixBench/results/ArchPhireh-2020-09-02-04.log"
+
+#### Pass 1
+
+
+# COUNT0: 6405101
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.007451
+# pid: 1184669
+# status: 0
+
+# COUNT0: 6436285
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006768
+# pid: 1184671
+# status: 0
+
+# COUNT0: 6432264
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.006402
+# pid: 1184672
+# status: 0
+
+# COUNT0: 6395483
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.005432
+# pid: 1184674
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 6122268
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.018224
+# pid: 1184706
+# status: 0
+
+# COUNT0: 6014604
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010686
+# pid: 1184708
+# status: 0
+
+# COUNT0: 6106281
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010409
+# pid: 1184710
+# status: 0
+
+# COUNT0: 6048185
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011915
+# pid: 1184711
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 6162884
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011458
+# pid: 1184795
+# status: 0
+
+# COUNT0: 5782428
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.013895
+# pid: 1184796
+# status: 0
+
+# COUNT0: 5927811
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011460
+# pid: 1184798
+# status: 0
+
+# COUNT0: 5962387
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010118
+# pid: 1184800
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 6036033
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011415
+# pid: 1184816
+# status: 0
+
+# COUNT0: 5461086
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010979
+# pid: 1184818
+# status: 0
+
+# COUNT0: 5735071
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010013
+# pid: 1184819
+# status: 0
+
+# COUNT0: 5934186
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.009615
+# pid: 1184821
+# status: 0
+
+*Dump score:   23166376.0
+Count score:   23835510.0
+Count score:   24291338.0
+Count score:   25669133.0
+
+>>>> Sum of 4 copies
+>>>> score: 2456101.91827681
+>>>> time: 10.0103515
+>>>> iterations: 3
+

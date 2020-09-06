@@ -1,0 +1,5 @@
+Benchmark tool for David Martí's final university project in the UPV. Note that a minimum of 2GiB of RAM is used for storage, plus whatever is needed for the actual benchmark.
+kcbench should start compiling the kernel 5 seconds after login. It will take a while and report the results afterwards.
+benchmark user password is 'benchmark'
+root password is also 'benchmark'
+run 'sudo ./spectre-meltdown-checker.sh' for additional info on hardware vulnerabilities

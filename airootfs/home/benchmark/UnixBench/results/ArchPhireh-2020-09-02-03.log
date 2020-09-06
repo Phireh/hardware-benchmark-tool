@@ -1,0 +1,17 @@
+
+########################################################
+System Call Overhead -- 1 copy
+==> "/home/phireh/work/UnixBench/pgms/syscall" 10 2>&1 >> "/home/phireh/work/UnixBench/results/ArchPhireh-2020-09-02-03.log"
+
+#### Pass 1
+
+
+# COUNT0: 7429532
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010378
+# pid: 1184527
+# status: 0
+
+#### Pass 2
+
